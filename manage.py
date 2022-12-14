@@ -2,22 +2,22 @@
 import os
 import sys
 
-if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "personal_portfolio.settings")
+# if __name__ == "__main__":
+#     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "personal_portfolio.settings")
 
-    from django.core.management import execute_from_command_line
+#     from django.core.management import execute_from_command_line
 
-    execute_from_command_line(sys.argv)
+#     execute_from_command_line(sys.argv)
 
-#old stuff below
-"""Django's command-line utility for administrative tasks.
+# old stuff below
+# "Django's command-line utility for administrative tasks.
 import os
 import sys
 
 
 def main():
-    #Run administrative tasks.
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'personal_portfolio.settings')
+    # Run administrative tasks.
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "personal_portfolio.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -29,7 +29,5 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-
-"""
